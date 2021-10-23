@@ -1,0 +1,40 @@
+.services {
+    background-color: #f3f4f6;
+    padding: 61px 24px 61px 24px;
+    &__services-info {
+        font-weight: var(--fw-regular);
+    }
+    h2 {
+        text-align: center;
+        padding-bottom: 0.75rem;
+        color: #2d314d;
+        padding: 0.75rem;
+        font-weight: var(--fw-regular);
+        font-size: clamp(1.72rem, 5vw, 2.138rem);
+    }
+    p {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+}
+
+//Services Cards
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 18px;
+    h3 {
+        font-size: 1rem;
+        text-align: center;
+        color: #2d314d;
+        font-weight: var(--fw-regular);
+        font-size: 1.1rem;
+    }
+    &__cards-paragraph {
+        text-align: center;
+        padding: 0.75rem;
+    }
+}

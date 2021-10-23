@@ -1,0 +1,120 @@
+.NavbarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: inherit;
+    padding: 30px 10%;
+    font-family: inherit;
+}
+
+.navbar-logo {
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    padding: 0px 20px;
+}
+
+.nav-menu a {
+    color: #9698a6;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-menu li a {
+    transition: color 0.3s ease 0s;
+}
+
+.nav-menu li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    display: block;
+    background-image: linear-gradient(to right, #31d35c, #2bb7da);
+    margin-bottom: 0px;
+}
+
+.nav-menu li a:hover::after {
+    width: 100%;
+    transition: all .5s;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    // header {
+    //     background: linear-gradient(#2d314d, transparent);
+    //     // transition: opacity 500ms ease-in, visibility 500ms ease-in;
+    //     // opacity: 0;
+    //     // height: 500px;
+    // }
+    .NavbarItems {
+        position: relative;
+        // // background: linear-gradient(#2d314d, transparent);
+        // transition: opacity 500ms ease-in, visibility 500ms ease-in;
+        // background-color: #fff;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 30px;
+        left: -100%;
+        opacity: 1;
+    }
+    .btn {
+        display: none;
+    }
+    .nav-menu.active {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 24px;
+        left: 50%;
+        width: 100%;
+        padding: 32px;
+        background: black;
+        list-style: none;
+        border-radius: 5px;
+        max-width: 400px;
+        transform: translateX(-50%);
+        transition: all 0.5s ease;
+        position: inherit;
+        //
+        // opacity: 1;
+        // visibility: visible;
+    }
+    .nav-links {
+        text-align: center;
+        width: 100%;
+    }
+    .nav-links:hover {
+        background-color: #7577fa;
+        border-radius: 0;
+    }
+    .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%, 50%);
+    }
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+}
