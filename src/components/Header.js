@@ -24,7 +24,7 @@ const Header = () => {
             more.
           </p>
 
-          <a className="btn-reuse" href="#">
+          <a className="btn-reuse" href="#/">
             Request Invite
           </a>
         </div>

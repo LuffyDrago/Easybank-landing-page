@@ -50,7 +50,7 @@ class Navbar extends Component {
               );
             })}
           </ul>
-          <a className="btn" href="#">
+          <a className="btn" href="#/">
             Request Invite
           </a>
         </nav>
