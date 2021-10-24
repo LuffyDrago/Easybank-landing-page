@@ -83,16 +83,15 @@
         left: 50%;
         width: 100%;
         padding: 32px;
-        background: black;
+        background: white;
+        box-shadow: 0 1px 24px 1px rgba(0, 0, 0, .55);
         list-style: none;
         border-radius: 5px;
         max-width: 400px;
         transform: translateX(-50%);
         transition: all 0.5s ease;
-        position: inherit;
-        //
-        // opacity: 1;
-        // visibility: visible;
+        z-index: 1;
+        top: 120%;
     }
     .nav-links {
         text-align: center;
@@ -116,5 +115,12 @@
         transform: translate(-100%, 60%);
         font-size: 1.3rem;
         cursor: pointer;
+    }
+}
+
+//For medium devices */
+@media screen and (min-width: 1024px) {
+    .NavbarItems {
+        padding: 18px 24px;
     }
 }

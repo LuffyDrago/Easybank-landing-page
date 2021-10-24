@@ -57,3 +57,30 @@
         line-height: 1.45;
     }
 }
+
+// =============== MEDIA QUERIES ===============
+//For medium devices */
+@media screen and (min-width: 768px) {
+    .article-all {
+        display: flex;
+        padding: 2em;
+        max-width: 500px;
+        margin: auto;
+    }
+    p {
+        text-align: center;
+        font-size: clamp(0.805rem, 2vw, 1rem);
+    }
+}
+
+//For medium devices */
+@media screen and (min-width: 1024px) {
+    // .article-section {
+    //     padding: 0;
+    // }
+    // .article-all {
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     padding: 0;
+    // }
+}

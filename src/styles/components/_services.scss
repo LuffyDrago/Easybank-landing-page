@@ -38,3 +38,49 @@
         padding: 0.75rem;
     }
 }
+
+// =============== MEDIA QUERIES ===============
+//For medium devices */
+@media screen and (min-width: 768px) {
+    .services-info {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        margin: auto;
+    }
+    .cards {
+        max-width: 500px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        p {
+            text-align: center;
+            font-size: clamp(0.805rem, 2vw, 1rem);
+        }
+    }
+}
+
+//For medium devices */
+@media screen and (min-width: 1024px) {
+    .services {
+        padding: 0;
+    }
+    .services-info {
+        padding-top: 20px;
+    }
+    .servicesall {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+// $breakpoint-tab: 1200px;
+// @media (min-width: $breakpoint-tab) {
+//     .services {
+//         padding: 0;
+//     }
+//     h2 {
+//         padding-top: 20px;
+//         text-align: start;
+//     }
+// }
