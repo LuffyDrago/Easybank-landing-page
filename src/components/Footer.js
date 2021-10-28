@@ -14,31 +14,33 @@ const Footer = () => {
     <>
       <section className="footer">
         <div className="footer__container">
-          <div className="footer__logo">
-            <a href="#/" className="footer__logo-link">
-              <img
-                src={logo}
-                alt="EasybankHomepage"
-                className="footer__logo-img"
-              />
-            </a>
-          </div>
-          <div className="footer__socials">
-            <a href="#/" className="footer__socials-link">
-              <img src={facebook} alt="facebook" />
-            </a>
-            <a href="#/" className="footer__socials-link">
-              <img src={youtube} alt="facebook" />
-            </a>
-            <a href="#/" className="footer__socials-link">
-              <img src={twitter} alt="facebook" />
-            </a>
-            <a href="#/" className="footer__socials-link">
-              <img src={pintrest} alt="facebook" />
-            </a>
-            <a href="#/" className="footer__socials-link">
-              <img src={insta} alt="facebook" />
-            </a>
+          <div className="columnn1">
+            <div className="footer__logo">
+              <a href="#/" className="footer__logo-link">
+                <img
+                  src={logo}
+                  alt="EasybankHomepage"
+                  className="footer__logo-img"
+                />
+              </a>
+            </div>
+            <div className="footer__socials">
+              <a href="#/" className="footer__socials-link">
+                <img src={facebook} alt="facebook" />
+              </a>
+              <a href="#/" className="footer__socials-link">
+                <img src={youtube} alt="facebook" />
+              </a>
+              <a href="#/" className="footer__socials-link">
+                <img src={twitter} alt="facebook" />
+              </a>
+              <a href="#/" className="footer__socials-link">
+                <img src={pintrest} alt="facebook" />
+              </a>
+              <a href="#/" className="footer__socials-link">
+                <img src={insta} alt="facebook" />
+              </a>
+            </div>
           </div>
           <nav className="footer__nav">
             <ul className="footer__nav-list">
@@ -76,12 +78,16 @@ const Footer = () => {
               </li>
             </ul>
           </nav>
-          <a className="btn-reuse" href="#/">
-            Request Invite
-          </a>
-          <span className="lastsentence">
-            &copy; Easybank. All Rights Reserved
-          </span>
+
+          <div className="column3">
+            <a className="btn-reuse" href="#/">
+              Request Invite
+            </a>
+            <span className="lastsentence">
+              &copy; Easybank. All Rights Reserved
+            </span>
+          </div>
+          
         </div>
       </section>
     </>

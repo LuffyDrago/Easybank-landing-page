@@ -74,13 +74,42 @@
     }
 }
 
-// $breakpoint-tab: 1200px;
-// @media (min-width: $breakpoint-tab) {
-//     .services {
-//         padding: 0;
-//     }
-//     h2 {
-//         padding-top: 20px;
-//         text-align: start;
-//     }
-// }
+///For large */
+@media screen and (min-width: 1200px) {
+    .services-info {
+        margin: inherit;
+        padding-left: 30px;
+        margin-left: 50px;
+        h2{
+            text-align: start;
+        }
+        p{
+            text-align: start;
+            padding-left: 20px;
+        }
+    }
+
+    .servicesall {
+        display: flex;
+        flex-direction:row;
+        margin-left: 60px;
+    }
+
+    .cards {
+        max-width: 230px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+        align-items:flex-start;
+       
+        p{
+            text-align:start;
+            line-height: 1.7;
+            font-size: clamp(0.805rem, 2vw, 0.861rem);
+        }
+       
+    }
+
+
+}

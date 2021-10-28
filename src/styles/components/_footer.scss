@@ -58,3 +58,47 @@ a {
 .lastsentence {
     color: #9698a6;
 }
+
+//For medium devices */
+@media screen and (min-width: 1024px) {
+    .footer {
+        padding: 46px 24px;
+    }
+    .footer__container{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        gap: 9rem;
+    }
+    .columnn1{
+        display:flex;
+        flex-direction:column;
+        gap:3rem;
+    }
+    .footer__nav{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        gap:3rem;
+    }
+    .column3{
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+        justify-content:center;
+        align-items:center;
+    }
+}
+
+///For large */
+@media screen and (min-width: 1200px) {
+    .footer__container{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        gap: 9rem;
+    }
+
+}
