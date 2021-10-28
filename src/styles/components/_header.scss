@@ -6,9 +6,11 @@
                 background-repeat: no-repeat;
                 background-position: center center;
                 min-height: 17.5rem;
+                //medium
                 $breakpoint-tablet: 1024px;
                 @media (min-width: $breakpoint-tablet) {
                     width: 50%;
+                    background-size: cover;
                 }
             }
             &::before {
@@ -20,6 +22,25 @@
                 background-size: 93%;
                 background-repeat: no-repeat;
                 background-position: center bottom;
+                //568px
+                $breakpoint-szall: 568px;
+                @media (min-width: $breakpoint-szall) {
+                    background-size: 50%;
+                    background-position: center;
+                }
+                //height /* For tall screens on mobiles y desktop*/
+                $breakpoint-height: 721px;
+                @media (min-height: $breakpoint-height) {
+                    background-size: 50%;
+                    background-position: center;
+                }
+                //small
+                $breakpoint-tabz: 768px;
+                @media (min-width: $breakpoint-tabz) {
+                    background-size: 50%;
+                    background-position: center;
+                }
+                //medium
                 $breakpoint-tablet: 1024px;
                 @media (min-width: $breakpoint-tablet) {
                     // width: 120%;
