@@ -31,7 +31,7 @@ The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ## Learning Outcomes❗
-- The overarching lesson for me in developing the site was project structure.I was unfamiliar with how to access images, and how to setup and use Sass and React.
+- The overarching lesson for me in developing the site was project structure.I was unfamiliar with how to access images, and how to setup and use Sass with React.
 I chose to create a separate style folder utilizing CSS.
 
 - Creating the Navbar and The header was the hardest part of the project. In creating the Navbar the usestate (React approach) was a learnng experience. I tried using the images as given and failed. I used font-awsome icons to substitute the hamburger and close images on the navbar.
