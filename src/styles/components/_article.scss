@@ -76,7 +76,6 @@
 //For medium devices */
 @media screen and (min-width: 1024px) {
     .article-section {
-        padding: 0;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -84,46 +83,38 @@
     .article-all {
         display: flex;
         flex-wrap: wrap;
-        flex-direction:row;
+        flex-direction: row;
         padding: 0;
-        max-width:100%;
+        max-width: 100%;
     }
-    .articleCard{
+    .articleCard {
         max-width: 500px;
         padding: 1.5rem;
-        p{
-            text-align:start;
+        p {
+            text-align: start;
         }
     }
-    
-    
 }
-
 
 //For large */
 @media screen and (min-width: 1200px) {
     .article-section h2 {
-        text-align:start;
+        text-align: start;
         margin-left: 80px;
     }
-    .article-all{
+    .article-all {
         display: flex;
         flex-direction: row;
         padding: 0;
         max-width: 100%;
     }
-
-
     .articleCard {
         max-width: 240px;
-        padding:0;
+        padding: 0;
     }
 }
 
 
-
 /* For tall screens on mobiles y desktop*/
 
-@media screen and (min-height: 721px) {
-   
-}
+@media screen and (min-height: 721px) {}
